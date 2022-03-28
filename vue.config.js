@@ -1,3 +1,6 @@
+// module.exports = {
+//   publicPath: '/project name/'
+// }
 module.exports = {
-  publicPath: '/project name/'
-}
+  publicPath: process.env.NODE_ENV === "production" ? "/Vue-spa/" : "/",
+};
