@@ -65,7 +65,7 @@ export default {
             text: "Post update successfully",
             icon: "success",
             showConfirmButton: false,
-            html: '<router-link class="nav-link" to="/Vue-spa/posts">OK</router-link>'
+            html: '<router-link class="nav-link" to="https://amirhsz7.github.io/Vue-spa/posts">OK</router-link>'
           });
         })
         .catch(function (error) {
