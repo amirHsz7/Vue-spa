@@ -5,7 +5,7 @@
   <span class="four"><span class="screen-reader-text">4</span></span>
 </section>
 <div class="link-container">
-  <a  href="/" class="more-link">Back to the main Page</a>
+  <a  href="/Vue-spa" class="more-link">Back to the main Page</a>
 </div>
 </template>
 

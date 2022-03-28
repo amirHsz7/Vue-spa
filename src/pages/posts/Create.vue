@@ -35,7 +35,7 @@ export default {
             text: "Post created successfully",
             icon: "success",
             showConfirmButton: false,
-            html: '<a class="btn btn-primary" href="/posts">Ok</a>'
+            html: '<a class="btn btn-primary" href="/Vue-spa/posts">Ok</a>'
           });
         })
         

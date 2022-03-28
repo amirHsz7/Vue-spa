@@ -65,7 +65,7 @@ export default {
             text: "Post update successfully",
             icon: "success",
             showConfirmButton: false,
-            html: '<a class="btn btn-success" href="/posts">Ok</a>'
+            html: '<a class="btn btn-success" href="/Vue-spa/posts">Ok</a>'
           });
         })
         .catch(function (error) {
