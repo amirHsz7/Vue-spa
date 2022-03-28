@@ -27,7 +27,7 @@ const routes = [
             { path: 'edit/:id', name: 'editPost', component: EditPost }
         ]
     },
-    { path: '/:pathMatch(.*)*', name: 'NotFound', component: NotFound },
+    { path: '/:pathMatch(.*)/', name: 'NotFound', component: NotFound },
     // { path: '*', component: Home }
 ];
 
