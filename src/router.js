@@ -12,15 +12,15 @@ import CreatePost from './pages/posts/Create.vue';
 import EditPost from './pages/posts/Edit.vue';
 import NotFound from './pages/NotFound.vue'
 const routes = [
-    { path: '/Vue-spa', name: 'home', component: Home },
+    { path: 'https://amirhsz7.github.io/Vue-spa/', name: 'home', component: Home },
     {
-        path: '/Vue-spa/users', name: 'userTemplate', component: TemplateUser, children: [
+        path: 'https://amirhsz7.github.io/Vue-spa/', name: 'userTemplate', component: TemplateUser, children: [
             { path: '', name: 'users', component: IndexUser },
             { path: ':id', name: 'userId', component: ShowUser }
         ]
     },
     {
-        path: '/Vue-spa/posts', name: 'postTemplate', component: TemplatePost, children: [
+        path: 'https://amirhsz7.github.io/Vue-spa/', name: 'postTemplate', component: TemplatePost, children: [
             { path: '', name: 'posts', component: IndexPost },
             { path: ':id', name: 'postId', component: ShowPost },
             { path: 'create', name: 'createPost', component: CreatePost },

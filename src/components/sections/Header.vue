@@ -2,7 +2,7 @@
   <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
-       <router-link class="nav-link" to="/Vue-spa/posts">Vue-SPA</router-link>
+       <router-link class="nav-link" to="https://amirhsz7.github.io/Vue-spa/">Vue-SPA</router-link>
         <button
           class="navbar-toggler"
           type="button"
