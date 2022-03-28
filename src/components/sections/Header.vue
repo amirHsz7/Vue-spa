@@ -2,7 +2,7 @@
   <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href="/Vue-spa/">Vue-SPA</a>
+       <router-link class="nav-link" to="/Vue-spa/posts">Vue-SPA</router-link>
         <button
           class="navbar-toggler"
           type="button"
